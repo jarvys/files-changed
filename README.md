@@ -21,3 +21,8 @@ filesChanged("less/*.less", "css", ".css", function(err, files) {
 	console.log(files);
 });
 ```
+
+use cli
+```Bash
+$ files-changed 'less/*.less' css .css
+```
