@@ -1,8 +1,9 @@
 {
   "name": "files-changed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "help finding files changed like like gulp-changed",
   "main": "index.js",
+  "keywords": ["files", "changed", "utilities"],
   "bin": {
     "files-changed": "cli.js"
   },
