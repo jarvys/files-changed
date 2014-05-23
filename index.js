@@ -35,14 +35,18 @@ module.exports = function(src, dest, ext, cb) {
 						return cb(err);
 					}
 
-					if(stats.mtime > src_mtime) {
+					if(stats.mtime < src_mtime) {
 						filesChanged.push(file);
 					}
 					cb();
 				});
 			});
 		}, function(err) {
-			cb(err || filesChanged);
+			if(err) {
+				cb(err);
+			} else {
+				cb(null, filesChanged);
+			}
 		});
 	});	
 };

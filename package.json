@@ -1,16 +1,21 @@
 {
   "name": "files-changed",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "help finding files changed like like gulp-changed",
   "main": "index.js",
+  "bin": {
+    "files-changed": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "jarvys/files-changed",
   "author": "Jarvys <yuhan534@126.com> (https://jarvys.github.io/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "glob": "~4.0.0",
     "underscore": "~1.6.0",
-    "async": "~0.9.0"
+    "async": "~0.9.0",
+    "minimist": "~0.1.0"
   }
 }
