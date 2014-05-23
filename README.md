@@ -1,6 +1,6 @@
 files-changed
 =============
-> help finding changed files like [gulp-chagned](https://github.com/sindresorhus/gulp-changed)
+> help finding changed files like [gulp-changed](https://github.com/sindresorhus/gulp-changed)
 
 ##Install
 
